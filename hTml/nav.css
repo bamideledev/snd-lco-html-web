@@ -11,6 +11,7 @@
 }
 body{
     font-size: 1.1rem;
+    background-color: whitesmoke;
 }
 .nav1 ul li{
     list-style: none;
@@ -23,9 +24,9 @@ body{
 #button{
     color: white;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-bottom: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
     border-radius: 10px;
     font-size: 15px;
     background-color: #3b6a81;
@@ -46,14 +47,74 @@ body{
 }
 .accman {
     height: 50px;
-    background-color: rgb(249, 243, 243);
-    margin-top: 0px;
+    background-color: #3b6a81;
+    margin-top: 10px;
     padding-top: 10px;
     text-align: center;
 }
 .accman a{
-    color: #3b6a81; 
+    color: white 
 }
 .imgpng{
-    background-image: url('./stockimg.jpg');
+    background-image: url('./chart4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imgpng{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.imgpng h2{
+    color: rgb(156, 208, 78);
+}
+#invest{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: cornsilk;
+}
+.imgpng h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3b6a81
+}
+.imgpng p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: cornsilk;
+    font-weight: 500;
+}
+.imgpng h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: cornsilk;
+    font-size: 15px;
+    font-weight: 500;
+}
+.lco1stcard{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.lco1stcard img{
+    width: 300px;
+    height: 200px;
+}
+.empty{
+    height: 40px;
+    width: 5px;
+    background-color: #3b6a81;
+    border-radius: 10px;
+}
+.flex2{
+    display: flex;
+}
+.flex2 h3{
+    padding-left: 10px;
+    padding-top: 5px;
 }
